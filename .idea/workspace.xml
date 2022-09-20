@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="225471ce-f321-4c3b-a31d-817dae4ce132" name="Changes" comment="Move Eclipse java project to IntelliJ repo">
-      <change afterPath="$PROJECT_DIR$/src/Online/Chapter1/ch15/IfElseIfElseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Online/Chapter1/ch16/SwitchCaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Online/Chapter1/ch16/SwitchCaseTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Online/Chapter1/ch17/WhileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Online/Chapter1/ch18/DoWhileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Online/Chapter1/ch19/ForTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Online/Chapter1/ch20/NestedLoopTest.java" afterDir="false" />
+    <list default="true" id="225471ce-f321-4c3b-a31d-817dae4ce132" name="Changes" comment="feat:Add_OnlineLecture_Practice_Java_220920&#10;&#10;Create some package of java src practice">
+      <change afterPath="$PROJECT_DIR$/src/BaekJoon/ControlFlowStatements/IterationStatements/MultiplicationTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BaekJoon/ControlFlowStatements/IterationStatements/Receit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BaekJoon/ControlFlowStatements/IterationStatements/StarTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BaekJoon/ControlFlowStatements/IterationStatements/StarTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BaekJoon/ControlFlowStatements/IterationStatements/StarTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BaekJoon/ControlFlowStatements/IterationStatements/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BaekJoon/ControlFlowStatements/IterationStatements/Test10952.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BufferedReaderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA_repo/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663652350097</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat:Add_OnlineLecture_Practice_Java_220920&#10;&#10;Create some package of java src practice">
+      <created>1663656574026</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663656574026</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +99,7 @@
     <MESSAGE value="Test_commit" />
     <MESSAGE value="Move Eclipse java project to IntelliJ repol" />
     <MESSAGE value="Move Eclipse java project to IntelliJ repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move Eclipse java project to IntelliJ repo" />
+    <MESSAGE value="feat:Add_OnlineLecture_Practice_Java_220920&#10;&#10;Create some package of java src practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:Add_OnlineLecture_Practice_Java_220920&#10;&#10;Create some package of java src practice" />
   </component>
 </project>
