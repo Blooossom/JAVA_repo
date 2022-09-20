@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="225471ce-f321-4c3b-a31d-817dae4ce132" name="Changes" comment="feat:Add_OnlineLecture_Practice_Java_220920&#10;&#10;Create some package of java src practice">
-      <change afterPath="$PROJECT_DIR$/src/BaekJoon/ControlFlowStatements/IterationStatements/MultiplicationTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaekJoon/ControlFlowStatements/IterationStatements/Receit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaekJoon/ControlFlowStatements/IterationStatements/StarTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaekJoon/ControlFlowStatements/IterationStatements/StarTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaekJoon/ControlFlowStatements/IterationStatements/StarTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaekJoon/ControlFlowStatements/IterationStatements/Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaekJoon/ControlFlowStatements/IterationStatements/Test10952.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BufferedReaderTest.java" afterDir="false" />
+    <list default="true" id="225471ce-f321-4c3b-a31d-817dae4ce132" name="Changes" comment="feat:Add Baekjoon online test to github&#10;&#10;today creat directory in java_repo, the name of that is BaekJoon">
+      <change afterPath="$PROJECT_DIR$/src/online/chapter1/ch04/BinaryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/online/chapter1/ch18/DoWhileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/online/chapter1/ch19/ForTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/online/chapter1/ch20/NestedLoopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/online/chapter1/ch21/BreakTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/online/chapter1/ch21/ContinueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaekJoon/ControlFlowStatements/IterationStatements/MultiplicationTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/MultiplicationTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaekJoon/ControlFlowStatements/IterationStatements/Receit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/Receit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaekJoon/ControlFlowStatements/IterationStatements/StarTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/StarTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaekJoon/ControlFlowStatements/IterationStatements/StarTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/StarTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaekJoon/ControlFlowStatements/IterationStatements/StarTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/StarTest3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaekJoon/ControlFlowStatements/IterationStatements/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaekJoon/ControlFlowStatements/IterationStatements/Test10952.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/Test10952.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch01/hellojava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/online/chapter1/ch01/hellojava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch04/BinaryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch06/VariableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/online/chapter1/ch06/VariableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch07/DoubleTest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch07/DoubleTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/online/chapter1/ch07/DoubleTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch08/CharacterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/online/chapter1/ch08/CharacterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch09/LocalVariableType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/online/chapter1/ch09/LocalVariableType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch10/CostantTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/online/chapter1/ch10/CostantTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch11/TypeConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/online/chapter1/ch11/TypeConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch12/LogicalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch12/OperatorTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/online/chapter1/ch12/OperatorTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch12/OperatorTest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch12/RelationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch12/ShortCircuit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch13/BitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/online/chapter1/ch13/BitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch13/ConditionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch14/IfElesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/online/chapter1/ch14/IfElesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch15/IfElseIfElseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/online/chapter1/ch15/IfElseIfElseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch16/SwitchCaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch16/SwitchCaseTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/online/chapter1/ch16/SwitchCaseTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch17/WhileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/online/chapter1/ch17/WhileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch18/DoWhileTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch19/ForTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch20/NestedLoopTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch21/BreakTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online/Chapter1/ch21/ContinueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/java/printf/Practice2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/online/chapter1/ch07/java/printf/Practice2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +70,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/JAVA_repo&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/JAVA_repo",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -80,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663656574026</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat:Add Baekjoon online test to github&#10;&#10;today creat directory in java_repo, the name of that is BaekJoon">
+      <created>1663669178912</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663669178912</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +139,7 @@
     <MESSAGE value="Move Eclipse java project to IntelliJ repol" />
     <MESSAGE value="Move Eclipse java project to IntelliJ repo" />
     <MESSAGE value="feat:Add_OnlineLecture_Practice_Java_220920&#10;&#10;Create some package of java src practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:Add_OnlineLecture_Practice_Java_220920&#10;&#10;Create some package of java src practice" />
+    <MESSAGE value="feat:Add Baekjoon online test to github&#10;&#10;today creat directory in java_repo, the name of that is BaekJoon" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:Add Baekjoon online test to github&#10;&#10;today creat directory in java_repo, the name of that is BaekJoon" />
   </component>
 </project>
