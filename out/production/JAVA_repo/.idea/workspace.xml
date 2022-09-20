@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="225471ce-f321-4c3b-a31d-817dae4ce132" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java/src/Main.java" afterDir="false" />
+    <list default="true" id="225471ce-f321-4c3b-a31d-817dae4ce132" name="Changes" comment="Test_commit">
+      <change afterPath="$PROJECT_DIR$/src/Online/Chapter1/ch04/BinaryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Online/Chapter1/ch06/VariableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Online/Chapter1/ch07/DoubleTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Online/Chapter1/ch07/DoubleTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Online/Chapter1/ch08/CharacterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Online/Chapter1/ch09/LocalVariableType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Online/Chapter1/ch10/CostantTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Online/Chapter1/ch11/TypeConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Online/Chapter1/ch12/LogicalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Online/Chapter1/ch12/OperatorTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Online/Chapter1/ch12/OperatorTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Online/Chapter1/ch12/RelationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Online/Chapter1/ch12/ShortCircuit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Online/Chapter1/ch13/BitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1/ch01/hellojava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Online/Chapter1/ch01/hellojava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,22 +38,25 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Ez1VM4b3oU9uoMLXTOE1uZsPkj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/user/IdeaProjects/JAVA_repo",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/JAVA_repo&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,6 +66,14 @@
       <option name="presentableId" value="Default" />
       <updated>1663583621839</updated>
     </task>
+    <task id="LOCAL-00001" summary="Test_commit">
+      <created>1663651291438</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663651291438</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -60,5 +86,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <MESSAGE value="Test_commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test_commit" />
   </component>
 </project>
