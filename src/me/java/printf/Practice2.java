@@ -2,6 +2,7 @@ package me.java.printf;
 
 public class Practice2 {
     public static void main(String[] args) {
+
         int i = 10;
         float f = 12.34f;
         double d = 56.78;

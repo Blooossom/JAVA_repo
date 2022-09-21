@@ -3,22 +3,19 @@ import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;;
-public class Test10952 {
-    public static void main(String[] args) throws IOException{
+public class Test11022 {
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringBuilder sb = new StringBuilder();
         StringTokenizer st;
-        while(true){
+        StringBuilder sb = new StringBuilder();
+        int T = Integer.parseInt(br.readLine());
+
+        for(int i = 1; i<=T; i++){
             st = new StringTokenizer(br.readLine());
             int A = Integer.parseInt(st.nextToken());
             int B = Integer.parseInt(st.nextToken());
-
-            if(A==0 && B==0){
-                break;
-            }
-            sb.append(A+B).append("\n");
-
+            sb.append("Case #"+i+": ").append(A).append(" + ").append(B).append(" = ").append(A+B).append("\n");
         }
-        System.out.print(sb);
+        System.out.println(sb);
     }
 }
