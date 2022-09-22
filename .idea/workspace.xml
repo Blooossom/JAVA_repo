@@ -1,30 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="225471ce-f321-4c3b-a31d-817dae4ce132" name="Changes" comment="edit:directory name change&#10;&#10;change the name of directory">
-      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage1/BufferedReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage2/Dice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/BufferedReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/BufferedReaderTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/PlusCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/SmallerThanX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/Test10950.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/Test10951.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/Test11021.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/Test11022.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/java/dataType/GarbageValueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/java/dataType/IntExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/java/dataType/LongExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/java/input/InputExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/java/printf/Practice2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch03/FunctionTest.java" afterDir="false" />
+    <list default="true" id="225471ce-f321-4c3b-a31d-817dae4ce132" name="Changes" comment="edit:Add algorithm test 220921&#10;&#10;Today, mainly iteration algorithm test resolved.">
+      <change afterPath="$PROJECT_DIR$/src/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codingTest/BigAB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/Test10953.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/Test2475.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/Test25238.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/Test2558.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/Test2741.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/Test5337.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage1/JustOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage1/MicrosoftLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage1/StarWarsLogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage2/CScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codingTest/programmers/Star.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codingTest/programmers/Star2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/java/NestedLoopPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/java/iteration/Practice01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/java/iteration/Practice02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/java/iteration/Practice03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/java/iteration/Practice04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/java/iteration/Practice05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/java/iteration/Practice06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch01/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch01/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch01/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch02/FunctionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch04/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch04/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch06/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch06/StudentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA_repo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/me/java/printf/Practice2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA_repo/me/java/printf/Practice2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BufferedReaderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/Receit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/Receit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/Test10952.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/Test10952.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/online/chapter1/ch07/java/printf/Practice2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/online/chapter2/ch03/FunctionTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +48,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -108,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663670574640</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="edit:Add algorithm test 220921&#10;&#10;Today, mainly iteration algorithm test resolved.">
+      <created>1663748189987</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663748189987</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +151,7 @@
     <MESSAGE value="feat:Add_OnlineLecture_Practice_Java_220920&#10;&#10;Create some package of java src practice" />
     <MESSAGE value="feat:Add Baekjoon online test to github&#10;&#10;today creat directory in java_repo, the name of that is BaekJoon" />
     <MESSAGE value="edit:directory name change&#10;&#10;change the name of directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit:directory name change&#10;&#10;change the name of directory" />
+    <MESSAGE value="edit:Add algorithm test 220921&#10;&#10;Today, mainly iteration algorithm test resolved." />
+    <option name="LAST_COMMIT_MESSAGE" value="edit:Add algorithm test 220921&#10;&#10;Today, mainly iteration algorithm test resolved." />
   </component>
 </project>
