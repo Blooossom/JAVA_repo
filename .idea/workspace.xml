@@ -1,42 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="225471ce-f321-4c3b-a31d-817dae4ce132" name="Changes" comment="edit:Add algorithm test 220922&#10;&#10;Today, mainly iteration algorithm test resolved.">
-      <change afterPath="$PROJECT_DIR$/src/SplitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/individualTest/oop01/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/individualTest/oop01/UserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch06/ch10/BirthDay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch06/ch10/BirthDayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch08/Buyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch08/BuyerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch08/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch08/OrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch08/ch09/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch08/ch09/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch08/ch09/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch11/MakeReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch11/MakeReportTest.java" afterDir="false" />
+    <list default="true" id="225471ce-f321-4c3b-a31d-817dae4ce132" name="Changes" comment="edit:Move some class to another repo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA_repo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codingTest/baekjoon/Test10953.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codingTest/baekjoon/Test2475.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codingTest/baekjoon/Test25238.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codingTest/baekjoon/Test2558.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codingTest/baekjoon/Test2741.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codingTest/baekjoon/Test5337.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codingTest/baekjoon/stage1/MicrosoftLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codingTest/baekjoon/stage1/StarWarsLogo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/PlusCircle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/StarTest1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/StarTest2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/StarTest3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/Test10950.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/Test10951.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/Test10952.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/Test11021.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/Test11022.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/Receit.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663857909065</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="edit:Move some class to another repo">
+      <created>1664021400106</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664021400106</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +138,7 @@
     <MESSAGE value="edit:directory name change&#10;&#10;change the name of directory" />
     <MESSAGE value="edit:Add algorithm test 220921&#10;&#10;Today, mainly iteration algorithm test resolved." />
     <MESSAGE value="edit:Add algorithm test 220922&#10;&#10;Today, mainly iteration algorithm test resolved." />
-    <option name="LAST_COMMIT_MESSAGE" value="edit:Add algorithm test 220922&#10;&#10;Today, mainly iteration algorithm test resolved." />
+    <MESSAGE value="edit:Move some class to another repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit:Move some class to another repo" />
   </component>
 </project>
