@@ -2,8 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="225471ce-f321-4c3b-a31d-817dae4ce132" name="Changes" comment="edit:Move some class to another repo">
+      <change afterPath="$PROJECT_DIR$/src/Practice01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/Receit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/BigAB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/Test16394.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/Test2742.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/Test10817.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/Test10953.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/Test2475.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/Test25238.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/Test2558.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/Test2741.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/Test5337.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/stage1/BufferedReaderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/stage1/JustOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/stage1/MicrosoftLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/stage1/StarWarsLogo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/stage2/CScore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/stage2/Dice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/stage3/BufferedReaderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/stage3/BufferedReaderTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/stage3/MultiplicationTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/stage3/PlusCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/stage3/Receit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/stage3/SmallerThanX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/stage3/StarTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/stage3/StarTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/stage3/StarTest3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/stage3/Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/stage3/Test10950.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/stage3/Test10951.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/stage3/Test10952.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/stage3/Test11021.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/baekjoon/stage3/Test11022.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/programmers/Star.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/codingTest/programmers/Star2.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +82,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Practice01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice01" />
+      <module name="JAVA_repo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Practice01" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -114,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664021400106</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="edit:Move some class to another repo">
+      <created>1664111123843</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664111123843</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
