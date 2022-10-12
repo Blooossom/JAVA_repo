@@ -2,8 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="225471ce-f321-4c3b-a31d-817dae4ce132" name="Changes" comment="edit:Move some class to another repo">
+      <change afterPath="$PROJECT_DIR$/src/NewPrac3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toyProject_1/General.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toyProject_1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toyProject_1/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toyProject_1/VIP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toyProject_1/VVIP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codingTest/baekjoon/stage3/Receit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA_repo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch01/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch01/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch01/UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch02/FunctionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch04/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch04/StudentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch06/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch06/StudentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch06/ch10/BirthDay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch06/ch10/BirthDayTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch08/Buyer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch08/BuyerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch08/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch08/OrderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch08/ch09/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch08/ch09/StudentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch08/ch09/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch11/MakeReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch11/MakeReportTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch12/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch14/Bus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch14/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch14/Subway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch14/TakeTransTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/online/ch15/Taxi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/online/ch15/TaxiTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/online/ch15/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/online/chapter1/ch04/BinaryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/online/chapter1/ch18/DoWhileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/online/chapter1/ch19/ForTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/online/chapter1/ch20/NestedLoopTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/online/chapter1/ch21/BreakTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/online/chapter1/ch21/ContinueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch01/hellojava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch06/VariableTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch07/DoubleTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch08/CharacterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch09/LocalVariableType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch10/CostantTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch11/TypeConversion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch12/OperatorTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch13/BitTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch14/IfElesTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch15/IfElseIfElseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch16/SwitchCaseTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch17/WhileTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,18 +90,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/JAVA_repo&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/JAVA_repo/src/toyProject_1",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\JAVA_repo\src\toyProject_1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="toyProject_1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="toyProject_1.Main" />
+      <module name="JAVA_repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="toyProject_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice03" />
+      <module name="JAVA_repo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Practice03" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
