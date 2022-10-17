@@ -1,4 +1,4 @@
-package toyProject_1;
+package toyProject_1.customer;
 
 import java.util.Objects;
 public class Customer {
@@ -7,8 +7,12 @@ public class Customer {
     private String customerID;
     private int spentTime;
     private int totalPay;
+    public Customer(){
+
+    }
 
     public Customer(int serialNo, String customerName, String customerID, int spentTime, int totalPay) {
+        serialNo++;
         this.serialNo = serialNo;
         this.customerName = customerName;
         this.customerID = customerID;
@@ -78,5 +82,9 @@ public class Customer {
                 ", spentTime=" + spentTime +
                 ", totalPay=" + totalPay +
                 '}';
+    }
+    public void showCustomerInfo(){
+        System.out.println("======= Customer Info =======");
+        System.out.println("No. "+serialNo+ " => Customer{serialNo='"+serialNo+"', name='"+customerName+"', userID='"+customerID+"', spentTime="+spentTime+", totalPayment="+totalPay+"}");
     }
 }

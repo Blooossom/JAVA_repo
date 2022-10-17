@@ -1,4 +1,6 @@
 package toyProject_1;
+import toyProject_1.group.GroupClass;
+
 import java.util.Objects;
 public class Parameter {
     private int minimumSpentTime;
@@ -30,6 +32,6 @@ public class Parameter {
         return "Parameter{minimumSpentTime="+this.minimumSpentTime + ", minimumTotalPay=" + this.minimumTotalPay + "}";
     }
     public void viewParameterData(){
-        System.out.println("GroupType : "+GroupClass.VIP+"\n"+"Parameter : "+"Parameter{minimumSpentTime="+this.minimumSpentTime + ", minimumTotalPay=" + this.minimumTotalPay + "}");
+        System.out.println("GroupType : "+ GroupClass.VIP+"\n"+"Parameter : "+"Parameter{minimumSpentTime="+this.minimumSpentTime + ", minimumTotalPay=" + this.minimumTotalPay + "}");
     }
 }

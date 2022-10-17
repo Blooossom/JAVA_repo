@@ -1,4 +1,4 @@
-package toyProject_1;
+package toyProject_1.group;
 
 public enum GroupClass{
     GENERAL("GENERAL"),

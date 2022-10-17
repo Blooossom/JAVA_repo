@@ -1,4 +1,4 @@
-package toyProject_1;
+package toyProject_1.menu;
 
 public class Menu {
     public static void main(String[] args) {
