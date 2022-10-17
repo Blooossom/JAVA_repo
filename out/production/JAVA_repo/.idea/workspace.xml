@@ -1,57 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="225471ce-f321-4c3b-a31d-817dae4ce132" name="Changes" comment="edit:Move some class to another repo">
-      <change afterPath="$PROJECT_DIR$/src/NewPrac3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice03.java" afterDir="false" />
+    <list default="true" id="225471ce-f321-4c3b-a31d-817dae4ce132" name="Changes" comment="feat:add parameter.java on project">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/smartstore.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toyProject_1/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toyProject_1/Customers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toyProject_1/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toyProject_1/GroupClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toyProject_1/ParameterSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toyProject_1/ParameterUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toyProject_1/ParameterView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA_repo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch01/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch01/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch01/UserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch02/FunctionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch04/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch04/StudentTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch06/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch06/StudentTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch06/ch10/BirthDay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch06/ch10/BirthDayTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch08/Buyer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch08/BuyerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch08/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch08/OrderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch08/ch09/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch08/ch09/StudentTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch08/ch09/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch11/MakeReport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch11/MakeReportTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch12/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch14/Bus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch14/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch14/Subway.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/chapter2/ch14/TakeTransTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/online/ch15/Taxi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/online/ch15/TaxiTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/online/ch15/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/online/chapter1/ch04/BinaryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/online/chapter1/ch18/DoWhileTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/online/chapter1/ch19/ForTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/online/chapter1/ch20/NestedLoopTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/online/chapter1/ch21/BreakTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/online/chapter1/ch21/ContinueTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch01/hellojava.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch06/VariableTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch07/DoubleTest2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch08/CharacterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch09/LocalVariableType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch10/CostantTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch11/TypeConversion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch12/OperatorTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch13/BitTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch14/IfElesTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch15/IfElseIfElseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch16/SwitchCaseTest2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/oonline/cChapter1/ch17/WhileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toyProject_1/General.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toyProject_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toyProject_1/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toyProject_1/VIP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toyProject_1/VVIP.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +29,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -89,14 +56,23 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/JAVA_repo&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/smartstore.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\JAVA_repo\src\toyProject_1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="toyProject_1" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="toyProject_1.Main" />
@@ -190,7 +166,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664021400106</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat:add project package and class">
+      <created>1665570955289</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665570955289</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat:add parameter.java on project">
+      <created>1665661043276</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665661043277</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +205,8 @@
     <MESSAGE value="edit:Add algorithm test 220921&#10;&#10;Today, mainly iteration algorithm test resolved." />
     <MESSAGE value="edit:Add algorithm test 220922&#10;&#10;Today, mainly iteration algorithm test resolved." />
     <MESSAGE value="edit:Move some class to another repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit:Move some class to another repo" />
+    <MESSAGE value="feat:add project package and class" />
+    <MESSAGE value="feat:add parameter.java on project" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:add parameter.java on project" />
   </component>
 </project>

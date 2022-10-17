@@ -1,16 +1,14 @@
 package toyProject_1;
-
+import java.io.*;
 public class Main {
-    public static void main(String[] args) {
-        StringBuilder sb = new StringBuilder();
-        sb.append("==============================").append("\n")
-                .append("1. Add Customer Data").append("\n")
-                .append("2. View Customer Data").append("\n")
-                .append("3. Update Customer Data").append("\n")
-                .append("4. Delete Customer Data").append("\n")
-                .append("5. Back").append("\n")
-                .append("==============================").append("\n")
-                .append("Choose One : ").append("\n");
-        System.out.println(sb);
+    public static void main(String[] args)throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        Parameter p = new Parameter();
+        p.setMinimumSpentTime(Integer.parseInt(br.readLine()));
+        p.setMinimumTotalPay(Integer.parseInt(br.readLine()));
+        System.out.println(p);
     }
 }
+/*
+
+ */

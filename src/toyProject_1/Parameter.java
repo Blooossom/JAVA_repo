@@ -14,7 +14,7 @@ public class Parameter {
     public int getMinimumSpentTime(){return this.minimumSpentTime;}
     public int getMinimumTotalPay(){return this.minimumTotalPay;}
     public void setMinimumSpentTime(int minimumSpentTime){this.minimumSpentTime=minimumSpentTime;}
-    public void setMinimumTotalPay(int minimumTotalPay){this.minimumSpentTime=minimumTotalPay;}
+    public void setMinimumTotalPay(int minimumTotalPay){this.minimumTotalPay=minimumTotalPay;}
     public boolean equals(Object o){
         if(this == o){
             return true;
@@ -28,5 +28,8 @@ public class Parameter {
     public int hashCode(){return Objects.hash(new Object[]{this.minimumSpentTime, this.minimumTotalPay});}
     public String toString(){
         return "Parameter{minimumSpentTime="+this.minimumSpentTime + ", minimumTotalPay=" + this.minimumTotalPay + "}";
+    }
+    public void viewParameterData(){
+        System.out.println("GroupType : "+GroupClass.VIP+"\n"+"Parameter : "+"Parameter{minimumSpentTime="+this.minimumSpentTime + ", minimumTotalPay=" + this.minimumTotalPay + "}");
     }
 }
