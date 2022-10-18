@@ -7,7 +7,7 @@ public enum GroupClass{
     String groupClass = "";
 
     private GroupClass(String groupClass){
-
+        this.groupClass=groupClass;
     }
 
     public String getGroupClass() {

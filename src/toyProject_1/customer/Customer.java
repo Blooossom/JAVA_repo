@@ -12,7 +12,6 @@ public class Customer {
     }
 
     public Customer(int serialNo, String customerName, String customerID, int spentTime, int totalPay) {
-        serialNo++;
         this.serialNo = serialNo;
         this.customerName = customerName;
         this.customerID = customerID;

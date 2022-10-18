@@ -1,7 +1,7 @@
 package toyProject_1.menu;
-
+import java.util.Scanner;
 public class Menu {
-    public static void main(String[] args) {
+    public static int initMenu() {
         StringBuilder sb = new StringBuilder();
         sb.append("==============================").append("\n")
                 .append("1. Add Customer Data").append("\n")
