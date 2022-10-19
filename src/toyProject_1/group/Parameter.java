@@ -1,5 +1,4 @@
-package toyProject_1;
-import toyProject_1.group.GroupClass;
+package toyProject_1.group;
 
 import java.util.Objects;
 public class Parameter {
@@ -27,11 +26,12 @@ public class Parameter {
             return false;
         }
     }
-    public int hashCode(){return Objects.hash(new Object[]{this.minimumSpentTime, this.minimumTotalPay});}
-    public String toString(){
-        return "Parameter{minimumSpentTime="+this.minimumSpentTime + ", minimumTotalPay=" + this.minimumTotalPay + "}";
+    public int hashCode() {
+        return Objects.hash(new Object[]{this.minimumSpentTime, this.minimumTotalPay});
     }
-    public void viewParameterData(){
-        System.out.println("GroupType : "+ GroupClass.VIP+"\n"+"Parameter : "+"Parameter{minimumSpentTime="+this.minimumSpentTime + ", minimumTotalPay=" + this.minimumTotalPay + "}");
+
+    public String toString() {
+        return "Parameter{minimumSpentTime=" + this.minimumSpentTime + ", minimumTotalPay=" + this.minimumTotalPay + "}";
     }
+
 }
