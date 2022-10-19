@@ -1,6 +1,12 @@
 package toyProject_1.menu;
 import java.util.Scanner;
-public class Menu {
+public abstract class Menu {
+    public static  Scanner sc;
+
+    public Menu(){
+
+    }
+
     public static int initMenu() {
         StringBuilder sb = new StringBuilder();
         sb.append("==============================").append("\n")
@@ -12,5 +18,9 @@ public class Menu {
                 .append("==============================").append("\n")
                 .append("Choose One : ").append("\n");
         System.out.println(sb);
+        return sc.nextInt();
+    }
+    static {
+        sc = new Scanner(System.in);
     }
 }
