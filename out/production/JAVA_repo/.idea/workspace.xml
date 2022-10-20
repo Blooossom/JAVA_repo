@@ -1,35 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="225471ce-f321-4c3b-a31d-817dae4ce132" name="Changes" comment="edit:Add algorithm test 220921&#10;&#10;Today, mainly iteration algorithm test resolved.">
-      <change afterPath="$PROJECT_DIR$/src/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingTest/BigAB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingTest/Test2558.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/Test2741.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage1/JustOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage1/MicrosoftLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage1/StarWarsLogo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingTest/baekjoon/stage2/CScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingTest/programmers/Star.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingTest/programmers/Star2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/java/NestedLoopPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/java/iteration/Practice01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/java/iteration/Practice02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/java/iteration/Practice03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/java/iteration/Practice04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/java/iteration/Practice05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/java/iteration/Practice06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch01/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch01/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch01/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch02/FunctionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch04/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch04/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch06/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/online/chapter2/ch06/StudentTest.java" afterDir="false" />
+    <list default="true" id="225471ce-f321-4c3b-a31d-817dae4ce132" name="Changes" comment="edit:edit&amp;create some class project">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/smartstore.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toyProject_1/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toyProject_1/menu/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA_repo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/online/chapter2/ch03/FunctionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toyProject_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toyProject_1/group/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject_1/group/Groups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toyProject_1/menu/SummaryMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject_1/menu/SummaryMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,11 +18,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -57,18 +45,70 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/JAVA_repo&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/user/Desktop/smartstore.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\JAVA_repo\src\toyProject_1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="toyProject_1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="toyProject_1.Main" />
+      <module name="JAVA_repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="toyProject_1.menu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParameterView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="toyProject_1.ParameterView" />
+      <module name="JAVA_repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="toyProject_1.menu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice03" />
+      <module name="JAVA_repo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ParameterView" />
+        <item itemvalue="Application.Practice03" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -77,6 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663583621839</updated>
+      <workItem from="1666172096346" duration="18185000" />
     </task>
     <task id="LOCAL-00001" summary="Test_commit">
       <created>1663651291438</created>
@@ -120,8 +161,67 @@
       <option name="project" value="LOCAL" />
       <updated>1663748189987</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="edit:Add algorithm test 220922&#10;&#10;Today, mainly iteration algorithm test resolved.">
+      <created>1663857909065</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663857909065</updated>
+    </task>
+    <task id="LOCAL-00008" summary="edit:Move some class to another repo">
+      <created>1664021400106</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664021400106</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat:add project package and class">
+      <created>1665570955289</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665570955289</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat:add parameter.java on project">
+      <created>1665661043276</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665661043277</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat:add some class project">
+      <created>1665987451679</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665987451679</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat:add some class project">
+      <created>1666006874194</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666006874194</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat:add some class project">
+      <created>1666055942867</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666055942867</updated>
+    </task>
+    <task id="LOCAL-00014" summary="edit:edit&amp;create some class project">
+      <created>1666187703005</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666187703005</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -143,6 +243,22 @@
     <MESSAGE value="feat:Add Baekjoon online test to github&#10;&#10;today creat directory in java_repo, the name of that is BaekJoon" />
     <MESSAGE value="edit:directory name change&#10;&#10;change the name of directory" />
     <MESSAGE value="edit:Add algorithm test 220921&#10;&#10;Today, mainly iteration algorithm test resolved." />
-    <option name="LAST_COMMIT_MESSAGE" value="edit:Add algorithm test 220921&#10;&#10;Today, mainly iteration algorithm test resolved." />
+    <MESSAGE value="edit:Add algorithm test 220922&#10;&#10;Today, mainly iteration algorithm test resolved." />
+    <MESSAGE value="edit:Move some class to another repo" />
+    <MESSAGE value="feat:add project package and class" />
+    <MESSAGE value="feat:add parameter.java on project" />
+    <MESSAGE value="feat:add some class project" />
+    <MESSAGE value="edit:edit&amp;create some class project" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit:edit&amp;create some class project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Desktop/smartstore.jar!/me/smartstore/project/exception/InputRangeException.class</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
