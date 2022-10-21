@@ -3,29 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="225471ce-f321-4c3b-a31d-817dae4ce132" name="Changes" comment="edit:edit&amp;create some class project">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/smartstore.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyProject1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyProject1/customer/ClassifyCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyProject1/customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyProject1/customer/Customers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyProject1/exception/InputEmptyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyProject1/exception/InputOutOfRangeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyProject1/group/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyProject1/group/GroupType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyProject1/group/Groups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyProject1/group/Parameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyProject1/menu/CustomerMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyProject1/menu/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyProject1/menu/ParameterMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyProject1/menu/SortType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyProject1/menu/SummaryMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyProject1/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toyProject1/exception/InputFormatException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA_repo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/toyProject_1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA_repo/toyProject_1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/toyProject_1/menu/CustomerMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA_repo/toyProject_1/menu/CustomerMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/toyProject_1/menu/ParameterMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA_repo/toyProject_1/menu/ParameterMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toyProject_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject_1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toyProject_1/menu/CustomerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject_1/menu/CustomerMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toyProject1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject1/menu/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toyProject1/customer/ClassifyCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject1/customer/ClassifyCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toyProject1/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject1/customer/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toyProject1/customer/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject1/customer/Customers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toyProject1/group/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject1/group/Groups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toyProject1/menu/CustomerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject1/menu/CustomerMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toyProject1/menu/ParameterMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject1/menu/ParameterMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toyProject1/menu/SummaryMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject1/menu/SummaryMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +72,7 @@
       <recent name="toyProject_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.toyProject1.menu.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="toyProject_1.Main" />
       <module name="JAVA_repo" />
@@ -118,8 +106,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="toyProject1.menu.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="toyProject1.menu.Main" />
+      <module name="JAVA_repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="toyProject1.menu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.toyProject1.menu.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ParameterView" />
         <item itemvalue="Application.Practice03" />
@@ -137,7 +139,7 @@
       <workItem from="1666172096346" duration="19918000" />
       <workItem from="1666231991063" duration="41000" />
       <workItem from="1666242043245" duration="189000" />
-      <workItem from="1666329789453" duration="15068000" />
+      <workItem from="1666329789453" duration="20877000" />
     </task>
     <task id="LOCAL-00001" summary="Test_commit">
       <created>1663651291438</created>
@@ -244,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666231693928</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="edit:edit&amp;create some class project">
+      <created>1666345043586</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1666345043586</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +298,15 @@
           <url>jar://$USER_HOME$/Desktop/smartstore.jar!/me/smartstore/project/Main.class</url>
           <line>36</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/toyProject1/menu/SummaryMenu.java</url>
+          <line>64</line>
+          <properties class="toyProject1.menu.SummaryMenu" method="selectSortType">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

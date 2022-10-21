@@ -2,7 +2,6 @@ package toyProject1.customer;
 
 import toyProject1.group.Group;
 
-import java.util.Comparator;
 import java.util.Objects;
 
 public class Customer implements Comparable<Customer> {
@@ -114,4 +113,6 @@ public class Customer implements Comparable<Customer> {
             return 0;
         }
     }
+
+
 }

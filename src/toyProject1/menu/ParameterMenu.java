@@ -7,6 +7,8 @@ import toyProject1.group.GroupType;
 import toyProject1.group.Groups;
 import toyProject1.group.Parameter;
 
+import java.util.InputMismatchException;
+
 public class ParameterMenu extends Menu{
     public static Groups allGroups = new Groups();
     public ParameterMenu(){
@@ -145,7 +147,55 @@ public class ParameterMenu extends Menu{
         }
     }
     public static void updateParameter(){
+        while(true) {
+            String strGroup = selectGroup().toUpperCase();
+            if (strGroup.equals("END")) {
+                return;
+            }
 
+            GroupType groupType;
+            try {
+                groupType = GroupType.valueOf(strGroup);
+            } catch (IllegalArgumentException var6) {
+                System.out.println("\nInvalid Input. Please try again.");
+                System.out.println(var6);
+                return;
+            }
+
+            Group grp = allGroups.find(groupType);
+            if (grp.getParameter() == null) {
+                System.out.println("\nNo parameter. Set the parameter first.");
+            } else {
+                System.out.println("\n" + grp.toString());
+               Parameter parameter = grp.getParameter();
+
+                label1:
+                while(true) {
+                    while(true) {
+                        try {
+                            int pchoice = setParameterMenu();
+                            if (pchoice == 1) {
+                                setMinimumSpentTime(parameter);
+                            } else if (pchoice != 2) {
+                                if (pchoice == 3) {
+                                    break label1;
+                                }
+
+                                System.out.println("\nInvalid Input. Please try again.");
+                            } else {
+                                setMinimumTotalPay(parameter);
+                            }
+                        } catch (InputMismatchException var5) {
+                            System.out.println("\nInvalid Type for Input. Please try again.");
+                            Menu.sc.next();
+                        }
+                    }
+                }
+
+                CustomerMenu.allCustomers.refresh(allGroups);
+                System.out.println("\n" + grp.toString());
+            }
+        }
     }
     //setParameter 시 하위 메뉴
     public static int setParameterMenu(){
@@ -182,6 +232,7 @@ public class ParameterMenu extends Menu{
                     throw new InputOutOfRangeException();
                 }
                 parameter.setMinimumSpentTime(minimumSpentTime);
+                return;
             }catch(NumberFormatException err){
                 System.out.println("Invalid Type for Input. Please try again.");
             }catch (InputOutOfRangeException err){
@@ -199,6 +250,7 @@ public class ParameterMenu extends Menu{
                     throw new InputOutOfRangeException();
                 }
                 parameter.setMinimumTotalPay(minimumTotalPay);
+                return;
             }catch(NumberFormatException err){
                 System.out.println("Invalid Type for Input. Please try again.");
             }catch (InputOutOfRangeException err){

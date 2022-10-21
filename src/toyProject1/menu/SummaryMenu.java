@@ -1,7 +1,9 @@
 package toyProject1.menu;
+import java.io.PrintStream;
 import java.util.Comparator;
 import java.util.Arrays;
 
+import toyProject1.customer.ClassifyCustomer;
 import toyProject1.exception.InputEmptyException;
 import toyProject1.exception.InputOutOfRangeException;
 import toyProject1.group.GroupType;
@@ -43,20 +45,21 @@ public class SummaryMenu extends Menu{
         while (true) {
             int choose = initSummaryMenu();
             if (choose == 1) {
-
+                dispSummary(ClassifyCustomer.classify());
             } else if (choose == 2) {
-
+                sortByNameMenu();
             } else if (choose == 3) {
-
+                sortBySpentTimeMenu();
             } else if (choose == 4) {
-
+                sortByTotalPayMenu();
             } else if (choose == 5) {
-
+                return;
             }else{
-
+                System.out.println("\nInvalid Input. Please try again.");
             }
         }
     }
+
 
     //정렬방식 고르기
     public static String selectSortType(){
@@ -97,10 +100,48 @@ public class SummaryMenu extends Menu{
         }
     }
     //고객 분류
+    public static void dispSummary(Customers[] groupByCustomers) {
+        System.out.println();
 
+        for(int i = 0; i < ParameterMenu.allGroups.length(); ++i) {
+            Group grp = ParameterMenu.allGroups.get(i);
+            int custCount = 0;
+            if (!groupByCustomers[i].isNull() && !groupByCustomers[i].isEmpty()) {
+                custCount = groupByCustomers[i].getCount();
+            }
+
+            System.out.println();
+            System.out.println("==============================");
+            if (grp.getGroupType().equals(GroupType.OTHERS)) {
+                System.out.println("Others : " + custCount + " customer(s)");
+            } else {
+                PrintStream var10000 = System.out;
+                String var10001 = grp.getGroupType().toString();
+                var10000.println(var10001 + " Group : " + custCount + " customer(s)");
+                if (grp.getParameter() == null) {
+                    System.out.println("[Parameter] null");
+                } else {
+                    System.out.println("[Parameter] " + grp.getParameter().toString());
+                }
+            }
+
+            System.out.println("------------------------------");
+            if (!groupByCustomers[i].isNull() && !groupByCustomers[i].isEmpty()) {
+                for(int j = 0; j < custCount; ++j) {
+                    Customer cust = groupByCustomers[i].get(j);
+                    if (cust != null) {
+                        System.out.println("No. " + (j + 1) + " => " + cust);
+                    }
+                }
+            } else {
+                System.out.println("No customer.");
+            }
+        }
+
+    }
 
     //이름순 정렬
-    public static void sortByname(){
+    public static void sortByNameMenu(){
         while (true) {
             String select = selectSortType().toUpperCase();
             if(select.equals("END")){
@@ -108,12 +149,61 @@ public class SummaryMenu extends Menu{
             }
             try{
                 SortType sortType = SortType.valueOf(select);
-
+                if (sortType == SortType.ASCENDING) {
+                    System.out.println("ASCENDING");
+                    ClassifyCustomer.sortByName(SortType.ASCENDING);
+                }else{
+                    System.out.println("DESCENDING");
+                    ClassifyCustomer.sortByName(SortType.DESCENDING);
+                }
+            }catch (IllegalArgumentException err) {
+                System.out.println("\nInvalid Type for Input. Please try again.");
             }
         }
     }
     //시간순 정렬
+    public static void sortBySpentTimeMenu(){
+        while(true) {
+            String strOrder = selectSortType().toUpperCase();
+            if (strOrder.equals("END")) {
+                return;
+            }
 
+            try {
+                SortType orderType = SortType.valueOf(strOrder);
+                if (orderType == SortType.ASCENDING) {
+                    System.out.println("ASCENDING");
+                    ClassifyCustomer.sortBySpentTime(SortType.ASCENDING);
+                } else {
+                    System.out.println("DESCENDING");
+                    ClassifyCustomer.sortBySpentTime(SortType.DESCENDING);
+                }
+            } catch (IllegalArgumentException var3) {
+                System.out.println("\nInvalid Type for Input. Please try again.");
+            }
+        }
+    }
+    public static void sortByTotalPayMenu(){
+        while(true) {
+            String strOrder = selectSortType().toUpperCase();
+            if (strOrder.equals("END")) {
+                return;
+            }
+
+            try {
+                SortType orderType = SortType.valueOf(strOrder);
+                if (orderType == SortType.ASCENDING) {
+                    System.out.println("ASCENDING");
+                    ClassifyCustomer.sortByTotalPay(SortType.ASCENDING);
+                } else {
+                    System.out.println("DESCENDING");
+                    ClassifyCustomer.sortByTotalPay(SortType.DESCENDING);
+                }
+            } catch (IllegalArgumentException err) {
+                System.out.println("\nInvalid Type for Input. Please try again.");
+            }
+        }
+    }
     //금액순 정렬
 
 
