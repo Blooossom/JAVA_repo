@@ -40,7 +40,7 @@ public class CustomerMenu  extends Menu{
 
     public static void manageCustomerData(){
         while(true){
-            int choose = initMenu();
+            int choose = manageCustomerMenu();
             if(choose==1){
                 int size = getSizeOfCustomersToInput();
                 setCustomerData(size);

@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="225471ce-f321-4c3b-a31d-817dae4ce132" name="Changes" comment="edit:edit&amp;create some class project">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/smartstore.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyProject_1/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyProject_1/menu/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toyProject_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject_1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toyProject_1/group/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject_1/group/Groups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toyProject_1/menu/SummaryMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject_1/menu/SummaryMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,20 +40,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/user/Desktop/smartstore.jar",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/smartstore.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\IdeaProjects\JAVA_repo\src\toyProject_1" />
@@ -117,7 +112,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663583621839</updated>
-      <workItem from="1666172096346" duration="18185000" />
+      <workItem from="1666172096346" duration="19918000" />
+      <workItem from="1666231991063" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="Test_commit">
       <created>1663651291438</created>
@@ -217,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666187703005</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="edit:edit&amp;create some class project">
+      <created>1666231693928</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1666231693928</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +260,11 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$USER_HOME$/Desktop/smartstore.jar!/me/smartstore/project/exception/InputRangeException.class</url>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Desktop/smartstore.jar!/me/smartstore/project/Main.class</url>
+          <line>36</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
