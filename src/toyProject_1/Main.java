@@ -31,7 +31,7 @@ public class Main {
                 if (choose == 1) {
                     ParameterMenu.manageParameter();
                 } else if (choose == 2) {
-                    CustomerMenu.manageCustomerData();
+                    CustomerMenu.manageCustomerMenu();
                 } else if (choose == 3) {
                     SummaryMenu.managaeSummaryMenu();
                 }else{

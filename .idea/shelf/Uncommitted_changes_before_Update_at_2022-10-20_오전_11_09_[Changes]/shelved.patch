@@ -1,0 +1,22 @@
+Index: .idea/libraries/smartstore.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/smartstore.xml b/.idea/libraries/smartstore.xml
+new file mode 100644
+--- /dev/null	(date 1666172736284)
++++ b/.idea/libraries/smartstore.xml	(date 1666172736284)
+@@ -0,0 +1,11 @@
++<component name="libraryTable">
++  <library name="smartstore">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/Desktop/smartstore.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/Desktop/smartstore.jar!/me/smartstore/project" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
