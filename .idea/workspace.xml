@@ -4,11 +4,10 @@
     <list default="true" id="225471ce-f321-4c3b-a31d-817dae4ce132" name="Changes" comment="edit:edit&amp;create some class project">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/smartstore.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toyProject1/customer/ClassifyCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject1/customer/ClassifyCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toyProject1/customer/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject1/customer/Customers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toyProject1/group/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject1/group/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_repo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA_repo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toyProject1/menu/CustomerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject1/menu/CustomerMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toyProject1/menu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject1/menu/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/toyProject1/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject1/menu/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toyProject1/menu/SummaryMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyProject1/menu/SummaryMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +133,7 @@
       <workItem from="1666172096346" duration="19918000" />
       <workItem from="1666231991063" duration="41000" />
       <workItem from="1666242043245" duration="189000" />
-      <workItem from="1666329789453" duration="25385000" />
+      <workItem from="1666329789453" duration="28010000" />
     </task>
     <task id="LOCAL-00001" summary="Test_commit">
       <created>1663651291438</created>
@@ -255,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666351318728</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="edit:edit&amp;create some class project">
+      <created>1666356793962</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1666356793962</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
