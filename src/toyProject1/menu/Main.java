@@ -14,7 +14,7 @@ public class Main {
                 if (choice == 1) {
                     ParameterMenu.inputParameter();
                 } else if (choice == 2) {
-                    CustomerMenu.manageCustomerData();
+                    CustomerMenu.inputCustomerData();
                 } else if (choice == 3) {
                     SummaryMenu.inputSummaryMenu();
                 } else {

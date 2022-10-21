@@ -4,7 +4,7 @@ public abstract class Menu {
     public Menu(){
 
     }
-    public static Scanner sc;
+    public static Scanner sc= new Scanner(System.in);
     public static int initMainMenu(){
         System.out.println();
         System.out.println("==============================");
@@ -15,8 +15,5 @@ public abstract class Menu {
         System.out.println("==============================");
         System.out.print("Choose One: ");
         return sc.nextInt();
-    }
-    static {
-        sc = new Scanner(System.in);
     }
 }
