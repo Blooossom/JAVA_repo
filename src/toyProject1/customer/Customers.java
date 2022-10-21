@@ -3,7 +3,6 @@ package toyProject1.customer;
 import toyProject1.group.Group;
 import toyProject1.group.GroupType;
 import toyProject1.group.Groups;
-
 import java.util.Arrays;
 
 public class Customers {
@@ -11,63 +10,51 @@ public class Customers {
     private int count;
     private Customer[] customers;
 
-    public Customers(){
-        this.customers=new Customer[SIZE];
+    public Customers() {
+        this.customers = new Customer[SIZE];
     }
-    public int getCount(){
+
+    public int getCount() {
         return this.count;
     }
-    public void setCustomers(Customer[] customers){
-        this.customers=customers;
+
+    public void setCustomers(Customer[] customers) {
+        this.customers = customers;
     }
-    public Customer[] getCustomers(){
-        int realCount =0;
-        for (int i = 0; i <this.customers.length&&this.customers[i]!=null; ++i) {
+
+    public Customer[] getCustomers() {
+        int realCount = 0;
+
+        for(int i = 0; i < this.customers.length && this.customers[i] != null; ++i) {
             ++realCount;
         }
+
         return (Customer[])Arrays.copyOf(this.customers, realCount);
     }
-    public int length(){
+
+    public int length() {
         return this.customers.length;
     }
-    public boolean isNull(){
-        return this.customers==null;
-    }
-    public boolean isEmpty(){
-        return this.count==0;
-    }
-    public void extend(int index, Customer customer){
-        Customer[] copy = (Customer[]) Arrays.copyOf(this.customers,this.customers.length);
-        SIZE *= 2;
-        this.customers = new Customer[SIZE];
 
-        for (int i = 0; i <copy.length; ++i) {
-            this.customers[i]=copy[i];
-        }
-        this.count = copy.length;
-        this.insert(index, customer);
-
+    public boolean isNull() {
+        return this.customers == null;
     }
-    public void extend(Customer customer){
-        Customer[] copy = (Customer[]) Arrays.copyOf(this.customers,this.customers.length);
-        SIZE *= 2;
-        this.customers = new Customer[SIZE];
 
-        for (int i = 0; i <copy.length; ++i) {
-            this.customers[i]=copy[i];
-        }
-        this.count = copy.length;
-        this.add(customer);
+    public boolean isEmpty() {
+        return this.count == 0;
     }
-    public void add(Customer customer){
-        if(this.count<SIZE){
-            this.customers[this.count]=customer;
+
+    public void add(Customer customer) {
+        if (this.count < SIZE) {
+            this.customers[this.count] = customer;
             ++this.count;
-        }else{
+        } else {
             this.extend(customer);
         }
+
     }
-    public void insert(int index, Customer customer){
+
+    public void insert(int index, Customer customer) {
         if (index < this.count) {
             if (this.count < SIZE) {
                 Customer var10000 = this.customers[index];
@@ -84,9 +71,33 @@ public class Customers {
 
         }
     }
-    public void edit(int i, Customer customer) {
-        this.customers[i] = customer;
+
+    public void extend(int index, Customer customer) {
+        Customer[] copy = (Customer[])Arrays.copyOf(this.customers, this.customers.length);
+        SIZE *= 2;
+        this.customers = new Customer[SIZE];
+
+        for(int i = 0; i < copy.length; ++i) {
+            this.customers[i] = copy[i];
+        }
+
+        this.count = copy.length;
+        this.insert(index, customer);
     }
+
+    public void extend(Customer customer) {
+        Customer[] copy = (Customer[])Arrays.copyOf(this.customers, this.customers.length);
+        SIZE *= 2;
+        this.customers = new Customer[SIZE];
+
+        for(int i = 0; i < copy.length; ++i) {
+            this.customers[i] = copy[i];
+        }
+
+        this.count = copy.length;
+        this.add(customer);
+    }
+
     public int pop(int index) {
         if (this.count == 0) {
             return -1;
@@ -113,9 +124,15 @@ public class Customers {
             return 1;
         }
     }
+
     public Customer get(int i) {
         return i < this.count ? this.customers[i] : null;
     }
+
+    public void edit(int i, Customer customer) {
+        this.customers[i] = customer;
+    }
+
     public Customers findCustomers(GroupType type) {
         Customers custs = new Customers();
         if (custs != null) {
@@ -124,7 +141,7 @@ public class Customers {
                 if (cust != null) {
                     Group grp = cust.getGroup();
                     if (type.equals(GroupType.OTHERS)) {
-                        if (grp == null || grp.getGroupType() == null || grp.getGroupType().equals(me.smartstore.project.groups.GroupType.NONE)) {
+                        if (grp == null || grp.getGroupType() == null || grp.getGroupType().equals(GroupType.OTHERS)) {
                             custs.add(cust);
                         }
                     } else if (grp != null && grp.getGroupType().equals(type)) {
@@ -154,8 +171,8 @@ public class Customers {
     public void refresh(Groups groups) {
         if (groups != null) {
             for(int i = 0; i < this.count; ++i) {
-               Customer customer = this.customers[i];
-                customer.setGroup(groups.findGroupFor(customer));
+                Customer cust = this.customers[i];
+                cust.setGroup(groups.findGroupFor(cust));
             }
 
         }
