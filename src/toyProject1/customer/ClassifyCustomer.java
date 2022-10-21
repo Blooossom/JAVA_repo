@@ -2,21 +2,22 @@ package toyProject1.customer;
 
 import toyProject1.group.Group;
 import toyProject1.group.GroupType;
+import toyProject1.menu.CustomerMenu;
 import toyProject1.menu.ParameterMenu;
 import toyProject1.menu.SortType;
 import toyProject1.menu.SummaryMenu;
-
 import java.util.Arrays;
 import java.util.Comparator;
 
 public class ClassifyCustomer {
-        public static Customers[] classify(){
-            Customers[] groupByCustomers = new Customers[GroupType.values().length];
-            for (int i = 0; i < ParameterMenu.allGroups.length(); ++i) {
-                Group grou=ParameterMenu.allGroups.get(i);
-            }
-            return groupByCustomers;
+    public static Customers[] classify(){
+        Customers[] groupByCustomers = new Customers[GroupType.values().length];
+        for(int i = 0; i < ParameterMenu.allGroups.length(); ++i) {
+            Group grp = ParameterMenu.allGroups.get(i);
+            groupByCustomers[i] = grp.getCustomers(CustomerMenu.allCustomers);
         }
+        return groupByCustomers;
+    }
         public static void sortByName(SortType sortType){
             Customers[] groupByCustomers = classify();
             if(sortType != null && !sortType.equals("")){

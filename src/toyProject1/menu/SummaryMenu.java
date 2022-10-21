@@ -1,7 +1,5 @@
 package toyProject1.menu;
 import java.io.PrintStream;
-import java.util.Comparator;
-import java.util.Arrays;
 
 import toyProject1.customer.ClassifyCustomer;
 import toyProject1.exception.InputEmptyException;
@@ -40,6 +38,7 @@ public class SummaryMenu extends Menu{
             }
         }
     }
+
     //입력받아서 각 항목으로 전달하는 메서드
     public static void inputSummaryMenu(){
         while (true) {
@@ -59,8 +58,6 @@ public class SummaryMenu extends Menu{
             }
         }
     }
-
-
     //정렬방식 고르기
     public static String selectSortType(){
         while(true){
